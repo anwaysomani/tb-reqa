@@ -22,11 +22,11 @@
     </tr>
     </thead>
     <tbody>
-    <tr>
+    <tr> <!-- frontend -->
         <td>frontend</td>
         <td>
             <button class="btn btn-outline-secondary" type="button"
-                    onclick="document.getElementById('frontend-file').click();">
+                    onclick="document.getElementById('frontend-file').click();" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
                 <i class="fa fa-folder-open"></i>
             </button>
             <input id="frontend-file" type="file" name="name" style="display: none;" onchange="updatePath('frontend')"
@@ -41,7 +41,7 @@
             <button class="btn btn-outline-info">Restart</button>
         </td>
     </tr>
-    <tr>
+    <tr> <!-- backend -->
         <td>backend</td>
         <td>
             <button class="btn btn-outline-secondary" type="button"
@@ -60,7 +60,7 @@
             <button class="btn btn-outline-info">Restart</button>
         </td>
     </tr>
-    <tr>
+    <tr> <!-- auth -->
         <td>auth</td>
         <td>
             <button class="btn btn-outline-secondary" type="button"
@@ -79,7 +79,7 @@
             <button class="btn btn-outline-info">Restart</button>
         </td>
     </tr>
-    <tr>
+    <tr> <!-- reports -->
         <td>reports</td>
         <td>
             <button class="btn btn-outline-secondary" type="button"
@@ -98,7 +98,7 @@
             <button class="btn btn-outline-info">Restart</button>
         </td>
     </tr>
-    <tr>
+    <tr> <!-- notifications -->
         <td>notifications</td>
         <td>
             <button class="btn btn-outline-secondary" type="button"
