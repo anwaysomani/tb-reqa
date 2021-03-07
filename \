@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd ../ratchet/ratchet-rest/
+echo $(git branch --format='%(color:bold green) %(refname:short)' --sort=-committerdate)
+
+echo $(pwd)
+
