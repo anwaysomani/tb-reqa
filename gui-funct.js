@@ -103,3 +103,11 @@ function restart(entity) {
 
   }
 }
+
+
+/*
+* #1 - folder name
+* #2 - branch
+* #3 - war name
+* #4 - tomcat directory
+*/
